@@ -1,11 +1,11 @@
 from mastodon import Mastodon
 import wikipedia
 
-f = open('credentials.py', 'r')
+f = open('settings.py', 'r')
 exec(f.read(), globals())
 f.close()
 
-wikipedia.set_lang('fr')
+wikipedia.set_lang(wiki_lang)
 page = wikipedia.page(wikipedia.random())
 text = '%s\n\n%s' % (page.summary, page.url)
 
