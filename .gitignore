@@ -1,0 +1,8 @@
+credentials.py
+*.secret
+
+*~
+_pycache_/
+__pycache__/
+env/
+.vscode
