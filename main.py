@@ -18,7 +18,6 @@ print(text)
 print('length:', len(text))
 
 masto = Mastodon(
-    client_id = 'pytooter_clientcred.secret',
     access_token = 'pytooter_usercred.secret',
     api_base_url = mastodon_url
 )
