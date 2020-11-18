@@ -27,4 +27,4 @@ masto.log_in(
     mastodon_password,
     to_file = 'pytooter_usercred.secret'
 )
-masto.status_post(text)
+masto.status_post(text, visibility='unlisted')
